@@ -1,4 +1,4 @@
 ## -- Show this projects -- ##
 <%= @project.name %>
-
-<%= link_to 'back', projects_path %> 
+<%= @project.user.full_name %>
+<%= link_to 'back', projects_path %>

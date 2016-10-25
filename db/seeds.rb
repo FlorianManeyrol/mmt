@@ -14,13 +14,16 @@ users = [
 ]
 
 projects = [
-  { name: 'Eglise de Montussan'
+  { name: 'Eglise de Montussan', user_id: 1)
   },
-  { name: 'Eglise de Saint-Loubès'
+  { name: 'Eglise de Saint-Loubès', user_id: 1
   }
 ]
 
-
+users.each do |user|
+  u = User.create(user)
+  puts "#{u.name} created --!"
+end
 
 
 projects.each do |project|
