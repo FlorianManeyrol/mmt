@@ -22,8 +22,11 @@
 /* Navbar logo */
 .navbar-monument-brand {
   color:$sable;
+  font-size: 20px;
+  font-family: $logo-font;
   img {
-  width: 50px;
+    height: 25px;
+    margin-bottom: 5px;
   }
 }
 
