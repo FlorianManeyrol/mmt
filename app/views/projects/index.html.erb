@@ -1,1 +1,14 @@
 ## -- List all projects -- ##
+
+<% @projects.each do |project|%>
+
+
+<%= link_to project do %>
+<%= project.name %>
+<% end %>
+
+<% end %>
+
+<div class="">
+<%= link_to 'Créer un projet', new_project_path %>
+</div>

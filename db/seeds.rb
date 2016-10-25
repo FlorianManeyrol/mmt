@@ -5,3 +5,25 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+users = [
+  { name: 'florian',
+    password: 123
+  }
+]
+
+projects = [
+  { name: 'Eglise de Montussan'
+  },
+  { name: 'Eglise de Saint-Loubès'
+  }
+]
+
+
+
+
+projects.each do |project|
+  p = Project.create(project)
+  puts "#{p.name} created --!"
+end
