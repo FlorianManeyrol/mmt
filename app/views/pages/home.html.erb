@@ -1,13 +1,30 @@
 <%= render 'shared/navbar_transparent' %>
 <div class="hero" id="hero">
   <div class="hero_content text-center">
-    <h1>Participez à la conservation et <br> à la restauration de notre <br> patrimoine</h1>
-
+    <h1>Participez à la conservation et <br> à la restauration de notre patrimoine</h1>
+    <div class="container">
+      <div class="row">
+          <%= link_to 'Découvrir des projects', new_project_path, class: 'btn btn-prussian-blue' %>
+      </div>
+    </div>
   </div>
 </div>
 
 <div class="intro">
-  <h2>Monument est une plateforme de financement participatif dédié à la conservation et à la restauration du patrimoine Français </h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <h2>Monument est une plateforme de financement participatif dédié à la conservation et à la restauration du patrimoine Français. </h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2 col-md-offset-8">
+        <div class="separator">
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="hearth-project">

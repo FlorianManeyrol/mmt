@@ -22,6 +22,7 @@
 /* Navbar logo */
 .navbar-monument-brand {
   color:$sable;
+  // color: white;
   font-size: 20px;
   font-family: $logo-font;
   img {
@@ -46,11 +47,12 @@
 
 /* Navbar standard link */
 .navbar-monument-link {
-  color: #616668;
+  color: white;
+  font-weight: bold;
   font-size: 14px;
 }
 .navbar-monument-link:hover {
-  color: #da552f;
+  color: #c3c3c3;
   text-decoration: none;
 }
 
@@ -58,17 +60,19 @@
 .navbar-monument-button {
   margin-left: 10px;
   padding: 0 20px;
-  border-radius: 20em;
+  border-radius: 5px;
   line-height: 40px;
-  background-color: #D23333;
+  background-color: transparent;
   color: white;
   font-size: 14px;
-  border: 2px solid #D23333;
+  font-weight: bold;
+  border: 2px solid white;
 }
 .navbar-monument-button:hover {
   color: white;
-  background: #D23333;
-  border-color: #ac2626;
+  background: rgba(0, 0, 0, 0.3);
+  border-color: white;
+  text-decoration: none;
 }
 
 /* Navbar search form */

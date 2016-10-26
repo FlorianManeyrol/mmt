@@ -4,6 +4,58 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 
+
+// Standards
+
+html {
+ text-rendering: optimizeLegibility !important;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+// Buttons
+
+.btn {
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin: 0px 10px;
+}
+
+.btn-prussian-blue {
+  background-color: #003049;
+  color: white;
+}
+
+.btn-prussian-blue:hover,
+.btn-prussian-blue:focus {
+  background-color: #014b71;
+  color: white;
+
+}
+
+.btn-steel-blue {
+  background-color: #2E86AB;
+  color: white;
+}
+
+.btn-steel-blue:hover {
+  background-color: #2E86AB;
+  color: white;
+
+}
+
+
+.separator {
+  height:2px;
+  width:100%;
+  background-color: #003049;
+}
+
+
+
+
 // Paddings
 .padded {
   padding-top: 5em;
