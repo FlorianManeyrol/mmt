@@ -1,0 +1,13 @@
+<% @projects.each do |project| %>
+  <div class="project col-md-4 text-center">
+    <div class="project-container">
+      <div class="project-title">
+        <%= project.name %>
+      </div>
+      <%= link_to 'En savoir plus', project %>
+      <div class="progress-bar-wrapper">
+        <div class="progress-bar" style="width: <%= project.progress %>%"></div>
+      </div>
+    </div>
+  </div>
+<% end %>

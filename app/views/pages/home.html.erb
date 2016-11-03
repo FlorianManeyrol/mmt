@@ -28,5 +28,14 @@
 </div>
 
 <div class="hearth-project">
-  <h3>Les monuments coups de coeurs</h3>
+  <div class="container">
+    <h3>Les monuments coups de coeurs</h3>
+    <% if @projects.present? %>
+    <div class="heart-project-container">
+      <%= render 'projects/item_project' %>
+    </div>
+    <% else %>
+    Damn !! No project yet
+    <% end %>
+  </div>
 </div>
